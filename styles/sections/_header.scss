@@ -1,0 +1,119 @@
+.first__section {
+    max-width: 1440px;
+    height: 809px;
+    margin: 0 auto;
+    background-color: rgba(242, 247, 255, 0.50);
+}
+.header {
+    max-width: 1110px;
+    max-height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        display: flex;
+        gap: 2px;
+    }
+        &__logo img {
+            padding-top: 32px;
+        }
+        &__logo p {
+            padding-top: 42px;
+            color: $text-color;
+            font-family: Gilroy;
+            font-size: 28.111px;
+            font-weight: 700;
+            line-height: 21.083px;
+        }
+    &__buttons {
+        padding-top: 32px;
+        display: flex;
+        gap: 12px;
+    }
+        &__btn1 button {
+            width: 76px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+            color: #FFFFFF;
+            background-color: $secondary-color;
+            font-family: Gilroy;
+            font-size: 16px;
+            font-weight: 700;
+            box-shadow: 0px 10px 20px 0px #00000012;
+            cursor: pointer;
+        }
+        &__btn1 button:hover, &__btn2 button:hover {
+            background-color: #F1E4FF;
+            color: $secondary-color;
+            transition: 0.4s ease;
+            box-shadow: none;  
+        }
+        &__btn2 button {
+            width: 138px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+            background-color: $secondary-color;
+            font-family: Gilroy;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 700;
+            box-shadow: 0px 10px 20px 0px #00000012;
+            cursor: pointer;    
+        }     
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first__section {
+        max-width: 768px;
+        height: 491px;
+        margin: 0 auto;
+        background-color: rgba(242, 247, 255, 0.50);
+    } 
+    .header {
+        max-width: 688px;
+        max-height: 75px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .first__section {
+        max-width: 375px;
+        height: 724px;
+        margin: 0 auto;
+        background-color: rgba(242, 247, 255, 0.50);
+    }
+    .header {
+        max-width: 329px;
+        max-height: 62px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        &__logo {
+            display: flex;
+            gap: 2px;
+            }
+            &__logo p {
+                padding-top: 37px;
+                color: $text-color;
+                font-family: Gilroy;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+            &__buttons {
+                display: none;
+            }
+            .hamburger {
+                margin-top: 32px;
+                display: block;
+            }
+        }   
+}

@@ -1,0 +1,276 @@
+.third__section {
+    max-width: 1440px;
+    height: 739px;
+    margin: 0 auto;
+}
+
+.third__container {
+    max-width: 1110px;
+    max-height: 539px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.third__container h2 {
+    color: $text-color;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 64px;
+}
+.third__container h3 {
+    padding-top: 16px;
+    text-align: center;
+    color: $text-color;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+    .third__row {
+        margin-top: 40px;
+        display: flex;
+        gap: 30px;
+    }
+        .card {
+           width: 350px;
+           height: 387px;
+           border: none;
+           border-radius: 6px;
+           background-color: #FCFEFF;
+           box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07); 
+        }
+            .card__header {
+                width: 350px;
+                height: 61px;
+                background-color:rgba(104, 94, 214, 0.05);
+            }
+            .card__header h2 {
+                padding-top: 7px;
+                color: $secondary-color;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 48px; 
+            }
+            .card__body h3 {
+                padding-top: 40px;
+                color: $text-color;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+            .card__body p {
+                padding-top: 32px;
+                color: $text-color;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px; 
+            }
+            .card__button {
+                display: flex;
+                justify-content: center;
+                margin-top: 46px;
+            }
+            .card__button button {
+                width: 287px;
+                height: 48px;
+                border: none;
+                border-radius: 6px;
+                background-color: $secondary-color;
+                color: #FFFFFF;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+                cursor: pointer;
+            }
+            .card__button button:hover {
+                background-color: #F1E4FF;
+                color: $secondary-color;
+                transition: 0.4s ease;
+                box-shadow: none;
+            } 
+            .ellipse__row {
+                display: none;
+            }
+            .card__body h6 {
+                display: none;
+            }
+            .ellipse__row_mobile1 {
+                display: none;
+            }
+
+@media screen and (max-width: 768px) {
+    .third__section {
+        max-width: 768px;
+        height: 641px;
+        margin: 0 auto;
+    }
+    .third__container {
+        max-width: 688px;
+        max-height: 533px;
+        padding-top: 54px;
+        margin: 0 auto;
+    }
+    .third__container h2 {
+        color: $text-color;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .third__container h3 {
+        padding-top: 16px;
+        text-align: center;
+        color: $text-color;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+        .third__row {
+            margin-top: 36px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            overflow-x: scroll;
+            gap: 20px;
+        }
+            .card {
+               width: 330px;
+               height: 387px;
+               border: none;
+               border-radius: 6px;
+               background-color: #FCFEFF;
+               box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07); 
+            }
+                .card__header {
+                    width: 330px;
+                    height: 61px;
+                    background-color:rgba(104, 94, 214, 0.05);
+                }
+                .card__header h2 {
+                    padding-top: 7px;
+                    color: $secondary-color;
+                    text-align: center;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 48px; 
+                }
+                .card__body h3 {
+                    padding-top: 40px;
+                    color: $text-color;
+                    text-align: center;
+                    font-family: Gilroy;
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 40px;
+                }
+                .card__body p {
+                    padding-top: 32px;
+                    color: $text-color;
+                    text-align: center;
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px; 
+                }
+                .card__button {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 46px;
+                }
+                .card__button button {
+                    width: 270px;
+                }
+        .ellipse__row {
+            display: flex;
+            margin-top: 24px;
+        }
+}
+
+@media screen and (max-width: 375px) {
+    .third__section {
+        max-width: 375px;
+        height: 557px;
+        margin: 0 auto;
+    }
+    .third__container {
+        max-width: 1110px;
+        max-height: 557px;
+        padding-top: 54px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .third__container h2 {
+        color: $text-color;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .third__container h3 {
+        width: 200px;
+        margin-left: 87px;
+        padding-top: 8px;
+        text-align: center;
+        color: $text-color;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .third__row {
+        margin-left: 23px;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: scroll;
+        gap: 20px;
+    }
+        .card {
+           width: 330px;
+           height: 387px;
+           border: none;
+           border-radius: 6px;
+           background-color: #FCFEFF;
+           box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07); 
+        }
+            .card__header {
+                width: 330px;
+                height: 61px;
+                background-color:rgba(104, 94, 214, 0.05);
+            }
+            .card__header h2 {
+                padding-top: 7px;
+                color: $secondary-color;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 48px; 
+            }
+            .card__body h6 {
+                display: block;
+                padding-top: 40px;
+                color: $text-color;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 40px; 
+            }
+            .card__body h3 {
+                display: none;
+            }
+}

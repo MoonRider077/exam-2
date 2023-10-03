@@ -1,0 +1,222 @@
+.second__section {
+    max-width: 1440px; 
+    height: 819px;
+    margin: 0 auto;
+    background: rgba(242, 247, 255, 0.50);
+}
+    .second__container {
+        max-width: 1110px;
+        max-height: 819px;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        gap: 76px;
+        .second__title h2 {
+            padding-top: 75px;
+            color: $text-color;
+            font-family: Gilroy;
+            font-size: 48px;
+            font-weight: 800;
+        }
+        .second__row1 {
+            margin-top: 68px;
+            display: flex;
+            gap: 26px;
+        }
+            .second__row1 h3 {
+                color: $text-color; 
+                font-family: Gilroy;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+            }
+            .second__row1 p {
+                padding-top: 8px;
+                color: $text-color;
+                font-family: Gilroy;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .second__row2, .second__row3, .second__row4 {
+                margin-top: 48px; 
+                display: flex;
+                gap: 26px;  
+            }
+            .second__row2 h3, .second__row3 h3, .second__row4 h3 {
+                color: $text-color; 
+                font-family: Gilroy;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+            }
+            .second__row2 p, .second__row3 p, .second__row4 p {
+                padding-top: 8px;
+                color: $text-color;
+                font-family: Gilroy;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        .second__picture {
+            padding-top: 69px;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    .second__section {
+        max-width: 768px; 
+        height: 607px;
+        margin: 0 auto;
+        background: rgba(242, 247, 255, 0.50);
+    }
+        .second__container {
+            max-width: 688px;
+            max-height: 607px;
+            margin: 0 auto;
+            display: block;
+            .second__title h2 {
+                padding-top: 60px;
+                color: $text-color;
+                font-family: Gilroy;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 40px;
+            }
+            .second__row1 img, .second__row2 img, .second__row3 img, .second__row4 img {
+                width: 42px;
+                height: 42px;
+            }
+            .second__row1 img {
+                margin-top: 36px;
+            }
+            .second__row2 img, .second__row4 img {
+                margin-top: 10px;
+            }
+            .second__row3 img {
+                margin-top: 13px;
+            }
+            .second__row1 {
+                margin-top: 40px;
+                display: flex;
+                gap: 18px;
+            }
+                .second__row1 h3 {
+                    color: $text-color; 
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 32px;
+                }
+                .second__row1 p {
+                    width: 354px;
+                    height: 78px;
+                    padding-top: 4px;
+                    color: $text-color;
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+                .second__row1 p br {
+                    display: none;
+                }
+                .second__row2, .second__row3, .second__row4 {
+                    margin-top: 16px; 
+                    display: flex;
+                    gap: 18px;  
+                }
+                .second__row2 h3, .second__row3 h3, .second__row4 h3 {
+                    color: $text-color; 
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 32px;
+                }
+                .second__row2 p, .second__row4 p {
+                    padding-top: 4px;
+                    color: $text-color;
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+                .second__row3 p {
+                    width: 323px;
+                    height: 52px;
+                    padding-top: 4px;
+                    color: $text-color;
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+                .second__row3 p br {
+                    display: none;
+                }
+            .second__picture {
+                position: absolute;
+                bottom: -50px;
+                right: 1px;
+            }
+            .second__picture img {
+                width: 300px;
+                height: 487px;
+            }
+        }
+}
+    
+@media screen and (max-width: 375px) {
+    .second__section {
+        max-width: 375px; 
+        height: 1111px;
+        margin: 0 auto;
+        background: rgba(242, 247, 255, 0.50);
+    }
+        .second__container {
+            max-width: 329px;
+            max-height: 1111px;
+            position: relative;
+            margin: 0 auto;
+            .second__title {
+                padding-top: 64px;
+            }
+            .second__title h2 {
+                position: absolute;
+                top: -615px;
+                width: 284px;
+                height: 40px;
+                color: $text-color;
+                font-family: Gilroy;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 40;
+            }
+            .second__row1 {
+                margin-top: 86px;
+            }
+            .second__row1 p br, .second__row2 p br, .second__row3 p br, .second__row4 p br {
+                display: none;
+            }
+            .second__row1 p {
+                width: 271px;
+                height: 87px;
+            } 
+            .second__row3 p {
+                width: 274px;
+                height: 52px;
+            }
+            .second__row4 p {
+                width: 250px;
+                height: 52px;
+            }
+            .second__picture {
+                position: static;
+                margin-top: -40px;
+            }
+            .second__picture img {
+                width: 300px;
+                height: 487px;
+            }
+        }
+}

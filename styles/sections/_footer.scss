@@ -1,0 +1,213 @@
+footer {
+    max-width: 1440px;
+    height: 448px;
+    margin: 0 auto;
+    background-color: $text-color;
+}
+
+.footer__container {
+    max-width: 1110px;
+    height: 448px;
+    margin: 0 auto;
+    display: flex;
+    gap: 389px;
+    .footer__logo {
+    padding-top: 111px;
+    }
+    .footer__logo p {
+        padding-top: 10px;
+        color: #FFFFFF;
+        font-family: Gilroy;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .footer__menu {
+        padding-top: 104px;
+        display: flex;
+        gap: 126px;
+    }
+    .footer__menu h3 {
+        color: #F4F5F7;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px; 
+    }
+    .footer__menu h4 {
+        padding-top: 32px;
+    }
+    .footer__menu li {
+        padding-top: 12px;
+    }
+    .footer__menu a {
+        color: #EEEFF4;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+}
+
+.lower__section {
+    max-width: 1440px;
+    height: 72px;
+    margin: 0 auto;
+    background-color: #141B23;
+    .lower__container {
+    max-width: 1110px;
+    max-height: 72px;
+    margin: 0 auto;
+    }
+    .lower__container p {
+        padding-top: 25px;
+        color: #D9DBE1;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        max-width: 768px;
+        height: 375px;
+        margin: 0 auto;
+        background-color: $text-color;
+    }
+    .footer__container {
+        max-width: 768px;
+        height: 375px;
+        margin: 0 auto;
+        display: flex;
+        gap: 152px;
+        .footer__logo {
+        padding-top: 60px;
+        padding-left: 43px;
+        }
+    .footer__menu {
+        padding-top: 60px;
+        display: flex;
+        gap: 70px;
+    }
+    .footer__menu h3 {
+        color: #F4F5F7;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px; 
+    }
+    .footer__menu h4 {
+        padding-top: 32px;
+    }
+    .footer__menu li {
+        padding-top: 12px;
+    }
+    .footer__menu a {
+        color: #EEEFF4;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+}
+    .lower__section {
+        max-width: 768px;
+        height: 74px;
+        margin: 0 auto;
+        background-color: #141B23;
+        .lower__container {
+        max-width: 688px;
+        max-height: 74px;
+        margin: 0 auto;
+        }
+        .lower__container p {
+            padding-top: 25px;
+            color: #D9DBE1;
+            font-family: Gilroy;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    footer {
+        max-width: 375px;
+        height: 566px;
+        margin: 0 auto;
+        background-color: $text-color;
+    }
+    .footer__container {
+        max-width: 329px;
+        height: 566px;
+        margin: 0 auto;
+        display: flex;
+        gap: 34px;
+        .footer__logo {
+        padding-top: 60px;
+        padding-left: 26px;
+        }
+        .footer__logo p {
+            padding-top: 10px;
+            color: #FFFFFF;
+            font-family: Gilroy;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        .footer__menu {
+            padding-top: 60px;
+            display: block;
+        }
+        .footer__menu h3 {
+            color: #F4F5F7;
+            font-family: Gilroy;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px; 
+        }
+        .footer__menu h4 {
+            padding-top: 16px;
+        }
+        .footer__menu li {
+            padding-top: 8px;
+        }
+        .footer__menu a {
+            color: #EEEFF4;
+            font-family: Gilroy;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px; 
+        }
+        .support {
+            padding-top: 24px;
+        }
+    }
+    
+    .lower__section {
+        max-width: 375px;
+        height: 74px;
+        margin: 0 auto;
+        background-color: #141B23;
+        .lower__container {
+        max-width: 329px;
+        max-height: 72px;
+        margin: 0 auto;
+        }
+        .lower__container p {
+            padding-top: 25px;
+            color: #D9DBE1;
+            font-family: Gilroy;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+    
+
+
